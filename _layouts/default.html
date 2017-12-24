@@ -22,10 +22,7 @@
 	<body>
 		<nav>
 			<div class="container">
-				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" height="35"/></a>
-				<div class="button">
-					<a href="/#donate">Donate</a>
-				</div>
+				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" height="35"/></a>
 			</div>
 		</nav>
 		<div class="content">
@@ -57,23 +54,12 @@
 				</div>
 
 				<div class="sharing">
-					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-						{% include icons/social-media.html social_icon="facebook" %}
-					</a>
 					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
 						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-					<a class="google-plus" href="https://plus.google.com/{{ site.data.company.google_plus }}">
-						{% include icons/social-media.html social_icon="google-plus" %}
 					</a>
 				</div>
 			</div>
 		</footer>
-		<p class="copyright">
-			<a href="https://cloudcannon.com/">
-				Template by CloudCannon
-			</a>
-		</p>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript">
 			$('a[href*=\\#]').on('click', function(event){
