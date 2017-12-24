@@ -3,7 +3,7 @@
 
 title: The Urban Invisibles
 url: http://urbaninvisibles.com
-baseurl:http://urbaninvisibles.com
+baseurl: http://urbaninvisibles.com
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
